@@ -144,7 +144,7 @@ gulp.task('preview-svg', ['javascript'], function(done) {
       row += 1
       col = 1
     }
-    svg.push('<g id="Icons/Material Ionic/' + icon.category + '/' + icon.name + '" transform="translate(' + 24 * col + ', ' + 24 * row + ')"><rect x="0" y="0" width="24" height="24" fill="#e5e5e5" />' + icon.paths + '</g>')
+    svg.push('<g id="Icons/Material Design Ionic/' + icon.category + '/' + icon.name + '" transform="translate(' + 24 * col + ', ' + 24 * row + ')"><rect x="0" y="0" width="24" height="24" fill="#e5e5e5" />' + icon.paths + '</g>')
     col += 2
     if (col >= maxCol) {
       row += 2
